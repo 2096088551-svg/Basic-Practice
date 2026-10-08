@@ -3,7 +3,6 @@
 - [About](#about)
 - [Practice 1](#practice-1)
 - [Practice 2](#practice-2)
-- [License](#-license)
 
 ## About
 **Basic Practice** is the repository for storage of basic practice homework.
@@ -13,6 +12,6 @@ Each sub‑folder corresponds to one practice exercise.
 
 ## Practice 1
 
-## Practice 2
+- [AIGC在游戏音频设计中的应用调研](Practice%201/Practice%201.md).
 
-## License
+## Practice 2
