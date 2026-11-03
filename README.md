@@ -10,8 +10,8 @@ This repo collects my coursework submissions of basic‑practice sessions,
 including several independent sub‑projects for each practice task.
 Each sub‑folder corresponds to one practice exercise.
 
-## Practice 1
+## Homework 1
 
 - [AIGC在游戏音频设计中的应用调研](Homework%201/Homework%201.md).
 
-## Practice 2
+## Homework 2
