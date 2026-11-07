@@ -1,0 +1,28 @@
+# macOS
+.DS_Store
+._*
+
+# Reaper 缓存和临时文件
+*.reapeaks
+peaks/
+*.rpp-bak
+*.rpp.bak
+*.RPP.bak
+
+# Wwise 缓存和生成文件
+.cache/
+Cache/
+GeneratedSoundBanks/
+Soundbanks/
+Validation/
+*.crossover.validationcache
+*.crossover.wsettings
+*.akd
+*.prof
+*.log
+*.stats
+*.tmp
+*.bak
+
+# 其他系统临时文件
+Thumbs.db
