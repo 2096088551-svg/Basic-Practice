@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{9FE38D12-F9B4-430C-83D5-209A8B3091E5}" SchemaVersion="133">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{9FE38D12-F9B4-430C-83D5-209A8B3091E5}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_Playground_Base" ID="{F7DB8D07-663A-43AF-9510-0535E788FEC4}">
+					<ChildrenList>
+						<Action Name="" ID="{5DB8C349-0AA6-4950-8106-635940F64B37}" ShortID="800993531">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Playground_Base_Loop" ID="{74B6601C-A956-4374-94B7-8B83E5365555}" WorkUnitID="{66CD2686-87BB-4C9B-A4F2-5D60FB9C9F40}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Run_Random" ID="{EFED4D97-BA97-4318-BFFE-B9C553C0C9BD}">
+					<ChildrenList>
+						<Action Name="" ID="{85A32DA8-C850-49FB-8132-AD43E359BC28}" ShortID="481197961">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Run_Random" ID="{6D955FA0-E5BE-4463-836D-50177B5D4745}" WorkUnitID="{66CD2686-87BB-4C9B-A4F2-5D60FB9C9F40}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Walk_Random" ID="{02C03874-00ED-47DC-8427-8A28A6059439}">
+					<ChildrenList>
+						<Action Name="" ID="{EF083C6C-8D31-4A5E-9FBA-54EE2B663748}" ShortID="1055092488">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Walk_Random" ID="{B5303B5F-77EB-4002-AADC-343D80D44693}" WorkUnitID="{66CD2686-87BB-4C9B-A4F2-5D60FB9C9F40}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Chat_Random" ID="{4B1DD5D1-34BD-4185-A6C9-DC9AE7D06192}">
+					<ChildrenList>
+						<Action Name="" ID="{B6D0517E-F658-4422-8DE0-A50A657C7E41}" ShortID="506583819">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Chat_Random" ID="{7B72B168-A355-4D16-85C8-29ABEA0C0EC2}" WorkUnitID="{66CD2686-87BB-4C9B-A4F2-5D60FB9C9F40}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Playground_Base" ID="{F2964D16-D849-402C-8557-2B253B5E434F}">
+					<ChildrenList>
+						<Action Name="" ID="{77C01FCE-3E86-4205-B461-39C89525D4BC}" ShortID="869488016">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Playground_Base_Loop" ID="{74B6601C-A956-4374-94B7-8B83E5365555}" WorkUnitID="{66CD2686-87BB-4C9B-A4F2-5D60FB9C9F40}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Leaves_Random" ID="{AE747BCD-2DC8-490D-AA1E-E3C6FEF7E85C}">
+					<ChildrenList>
+						<Action Name="" ID="{088D7FF7-C66A-4A82-AC4B-5C4745114FB3}" ShortID="236671551">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Leaves_Random" ID="{C7C60C0A-ACD9-4FAA-9FF9-1FACC55879CE}" WorkUnitID="{66CD2686-87BB-4C9B-A4F2-5D60FB9C9F40}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Wind_Random" ID="{5F23D85A-0AC3-429F-B599-BA305F44BF08}">
+					<ChildrenList>
+						<Action Name="" ID="{22A13827-BDF5-4ACD-89AE-212EF69D53BF}" ShortID="761926983">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Wind_Random" ID="{C7A5714B-590D-4658-95C3-1A32534555C3}" WorkUnitID="{66CD2686-87BB-4C9B-A4F2-5D60FB9C9F40}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

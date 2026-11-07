@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7C02AA24-FE50-4883-9C40-A16A5BBC743E}" SchemaVersion="133">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{7C02AA24-FE50-4883-9C40-A16A5BBC743E}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="Scene_Playground_Test" ID="{D874430E-D7E7-454C-9B8B-657D5EF20101}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_Chat_Random" ID="{4B1DD5D1-34BD-4185-A6C9-DC9AE7D06192}" WorkUnitID="{9FE38D12-F9B4-430C-83D5-209A8B3091E5}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Walk_Random" ID="{02C03874-00ED-47DC-8427-8A28A6059439}" WorkUnitID="{9FE38D12-F9B4-430C-83D5-209A8B3091E5}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Playground_Base" ID="{F7DB8D07-663A-43AF-9510-0535E788FEC4}" WorkUnitID="{9FE38D12-F9B4-430C-83D5-209A8B3091E5}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Stop_Playground_Base" ID="{F2964D16-D849-402C-8557-2B253B5E434F}" WorkUnitID="{9FE38D12-F9B4-430C-83D5-209A8B3091E5}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Run_Random" ID="{EFED4D97-BA97-4318-BFFE-B9C553C0C9BD}" WorkUnitID="{9FE38D12-F9B4-430C-83D5-209A8B3091E5}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Wind_Random" ID="{5F23D85A-0AC3-429F-B599-BA305F44BF08}" WorkUnitID="{9FE38D12-F9B4-430C-83D5-209A8B3091E5}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Leaves_Random" ID="{AE747BCD-2DC8-490D-AA1E-E3C6FEF7E85C}" WorkUnitID="{9FE38D12-F9B4-430C-83D5-209A8B3091E5}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+					</ModuleList>
+				</SoundcasterSession>
+				<SoundcasterSession Name="New Soundcaster Session" ID="{834317C1-5B45-41B3-9085-C3B7E32E26E7}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>
