@@ -87,6 +87,26 @@
 
 将在Reaper中处理后的循环基底声和随机声都导入Wwise中,导入基底声,并且设置Loop的Enable和Infinite,接着分别创建Chat_Random,Run_Random,Walk_Random,Leaves_Random,Wind_Random将随机声也分别导入进去,并将3D Spatialization设置为Position, 并且绑定Attenuation_Playground.Attenuation_Playground是一条距离与音量的衰减曲线.接着创建Play_Chat_Random、Play_Leaves_Random等Events,然后创建Soundcaster Session命名为Scene_Playground_Test,用来测试最后完成的效果.
 
+### 最终结果
+
+最终 Base 为一条 60 秒的循环环境声.
+
+Wwise 中包含以下随机容器：
+
+- Run_Random：8 个版本
+- Walk_Random：4 个版本
+- Chat_Random：8 个版本
+- Leaves_Random：5 个版本
+- Wind_Random：5 个版本
+
+随机容器均设置为step，并开启3DSpatialization。所有随机容器绑定 Attenuation_Playground，最大衰减距离为 50 米。
+
+最终在 Scene_Playground_Test 中完成测试，并额外导出了 60 秒试听混音：
+
+```text
+Homework 2/Final/Preview/CampusPlayground_Preview_60s.wav
+```
+
 ### 遇到的问题
 
 #### 收集声音

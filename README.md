@@ -40,7 +40,13 @@
 | 场景图片 | [Images](Homework%202/Final/Images/) |
 | 配置与测试截图 | [Evidence](Homework%202/Final/Evidence/) |
 | 录音与制作说明 | [Preparation.md](Homework%202/Preparation.md) |
+| 60秒试听混音 | [CampusPlayground Preview 60s](Homework%202/Final/Preview/CampusPlayground_Preview_60s.wav) |
 
+### 试听混音
+
+[打开 60s 试听混音](Homework%202/Final/Preview/CampusPlayground_Preview_60s.wav)
+
+该文件将操场基底声与跑步、走路、聊天、风声和树叶声混合为一段完整的 60 秒场景预览，用于快速了解最终声音效果。
 ### 场景说明
 
 傍晚的校园操场，跑道上零星分布着跑步和散步的人，足球场上有人在活动，场边树叶被风吹动。远处有模糊的聊天和欢笑声，整体保持校园傍晚的生活感，但不突出某一个人的具体对话。
@@ -100,5 +106,6 @@ Homework 2/
     WwiseProject/  Wwise 工程
     Images/        场景图片
     Evidence/      Wwise 配置与测试截图
+    Preview/       60 秒试听混音
     Raw/           原始录音与筛选素材
 ```
